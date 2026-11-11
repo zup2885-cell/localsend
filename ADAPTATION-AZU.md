@@ -9,3 +9,5 @@ Build with the pinned Flutter 3.47.9 and Rust 1.97.1: `cd app`, `flutter pub get
 The Mac application and share extension use an independent bundle identifier and shared group. Simplified Chinese is saved only on a fresh profile; the system-language option remains available. Release builds use ad hoc signing without the upstream development team.
 
 Packaging: after building, run `python3 azu-mac/package.py`. The development package uses an ad hoc signature without hardened runtime; sandbox entitlements are preserved. Host security settings are not changed. An Apple-notarized distribution needs the maintainer's Developer ID. Flutter and Dart notices remain in the Flutter assets; Rust dependency notices are included alongside them.
+
+The original Azu icon drawing source is `azu-mac/azu_icons.swift`; it renders the icon sets with AppKit. Azu-specific changes are distributed under the application's stated open-source license.
