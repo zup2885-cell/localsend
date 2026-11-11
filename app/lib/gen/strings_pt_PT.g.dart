@@ -40,7 +40,7 @@ class TranslationsPtPt extends Translations with BaseTranslations<AppLocale, Tra
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '阿祖快传';
   @override
   late final Translations$general$pt_PT general = Translations$general$pt_PT.internal(_root);
   @override

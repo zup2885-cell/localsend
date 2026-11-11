@@ -40,7 +40,7 @@ class TranslationsCs extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '阿祖快传';
   @override
   late final _Translations$general$cs general = _Translations$general$cs._(_root);
   @override

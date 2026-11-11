@@ -40,7 +40,7 @@ class TranslationsZhCn extends Translations with BaseTranslations<AppLocale, Tra
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '阿祖快传';
   @override
   late final Translations$general$zh_CN general = Translations$general$zh_CN.internal(_root);
   @override
@@ -518,9 +518,10 @@ class Translations$aboutPage$zh_CN extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => '关于 LocalSend';
+  String get title => '关于阿祖快传';
   @override
   List<String> get description => [
+    '阿祖快传是基于 LocalSend 的 Mac 适配版，由阿祖维护名称、图标、简体中文默认设置与独立安装包。原作者为 Tien Do Nam，原项目和 Apache 2.0 许可保持不变。',
     'LocalSend 是一款免费的开源应用程序，可让您通过本地网络与附近的设备安全地分享文件和信息，而无需互联网连接。',
     '本程序可在 Android、iOS、macOS、Windows 和 Linux 上使用。您可以在官方主页找到所有下载选项。',
   ];

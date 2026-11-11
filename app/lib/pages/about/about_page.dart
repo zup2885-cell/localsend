@@ -47,6 +47,11 @@ class AboutPage extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           Text(t.aboutPage.description.join('\n\n')),
+          const SizedBox(height: 10),
+          TextButton(
+            onPressed: () => launchUrl(Uri.parse('https://github.com/zup2885-cell/localsend')),
+            child: const Text('阿祖适配源码与下载'),
+          ),
           const SizedBox(height: 20),
           Text(t.aboutPage.author, style: const TextStyle(fontWeight: FontWeight.bold)),
           Text.rich(

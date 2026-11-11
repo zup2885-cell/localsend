@@ -40,7 +40,7 @@ class TranslationsBn extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'লোকালসেন্ড';
+  String get appName => '阿祖快传';
   @override
   late final _Translations$general$bn general = _Translations$general$bn._(_root);
   @override

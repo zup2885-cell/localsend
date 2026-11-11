@@ -40,7 +40,7 @@ class TranslationsUz extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '阿祖快传';
   @override
   late final _Translations$general$uz general = _Translations$general$uz._(_root);
   @override

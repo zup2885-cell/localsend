@@ -157,6 +157,10 @@ class PersistenceService {
       }
     }
 
+    if (isFirstAppStart) {
+      await prefs.setString(_localeKey, AppLocale.zhCn.languageTag);
+    }
+
     // Locale configuration upon persistence initialisation to prevent unlocalised Alias generation
     final persistedLocale = prefs.getString(_localeKey);
     if (persistedLocale == null) {

@@ -40,7 +40,7 @@ class TranslationsFa extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'لوکال‌سند';
+  String get appName => '阿祖快传';
   @override
   late final _Translations$general$fa general = _Translations$general$fa._(_root);
   @override
